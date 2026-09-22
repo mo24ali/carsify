@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*_checkpoint.ipynb
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Data (raw, processed)
+data/
+
+# Model artifacts
+models/
+
+# Generated reports & figures
+reports/figures/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Logs
+*.log
